@@ -1,0 +1,38 @@
+.container-stack{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.title-stack-container{
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+.title-stack{
+  font-size: 40px;
+  font-weight: 600;
+}
+.subtitlestack{
+  font-size: 20px;
+  font-weight: 400;
+}
+.stack-container-icons{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.stack-icons{
+  display: flex;
+  gap: 1rem;
+  margin-top: 30px;
+}
+.image-stack{
+  width: 60px;
+  height: 60px;
+}

@@ -3,8 +3,8 @@ const Header = () => {
   return (
     <header className="header-container">
       <div className="header-tittle">
-        <h1 className="title-header">I my name is Kevin Duhamel</h1>
-        <h2 className="subtitle-header">Full Stack Developer</h2>
+        <h1 className="title-header">Hi! my name is Kevin Duhamel</h1>
+        <h2 className="subtitle-header">I'm a Full Stack Developer</h2>
       </div>
       <div className="header-logo">
         <figure className="profile-header">
