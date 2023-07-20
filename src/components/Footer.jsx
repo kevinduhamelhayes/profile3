@@ -2,10 +2,7 @@ import "./styles/footer.css"
 import { FaGithub, FaLinkedin } from "react-icons/fa"
 const Footer = () => {
   return (
-    <nav className="footer-container">
-      <div className="footer-logo">
-        <h1 className="title-footer">Kevin Duhamel</h1>
-      </div>
+    <footer className="footer-container">
       <div className="footer-links">
         <ul className="ul-footer">
           <li className="li-footer">home</li>
@@ -23,7 +20,10 @@ const Footer = () => {
           </li>
         </ul>
       </div>
-    </nav>
+      <div className="footer-logo">
+        <p className="title-footer">sitio construido con amor para ti cortesia de REACT</p>
+      </div>
+    </footer>
   )
 }
 export default Footer

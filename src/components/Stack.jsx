@@ -45,7 +45,7 @@ const Stack = () => {
           </figure>
           <figure className="container-img-stack">
             <img
-              className="image-stack"
+              className="image-stack-python"
               src="./public/python.svg"
               alt="python-stack"
             />

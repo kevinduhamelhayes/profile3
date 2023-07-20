@@ -10,15 +10,25 @@
 }
 .header-tittle {
   flex-grow: 1;
+  margin-left: 40px;
 }
 .header-logo {
-  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.profile-header{
+  width: 350px;
+  height: 350px;
+  border-radius: 50%;
+
   background: linear-gradient(50deg, #17AEF4, #ed0dcc);
 }
-.img-header {
-  width: 250px;
-  height: 300px;
-  position: relative;
+.img-header {  
+  aspect-ratio: 1/1;
+  padding: 6px;
+  width: 100%;
+  height: 100%;
   border-radius: 50%;
 }
 .subtitle-header {

@@ -36,3 +36,8 @@
   width: 60px;
   height: 60px;
 }
+.image-stack-python{
+  width: 60px;
+  height: 60px;
+  transform: scale(1.8);
+}
