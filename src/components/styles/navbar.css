@@ -1,0 +1,54 @@
+.navbar-container {
+  position: absolute;
+  display: flex;
+  top: 0;
+  height: 50px;
+  width: 100vw;
+  padding: 30px 30px;
+  align-items: center;
+  justify-content: space-between;
+}
+.navbar-links {
+  width: 100%;
+  display: flex;
+  align-items: space-between;
+  list-style: none;
+}
+.ul-navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 100px;
+  margin-right: 50px;
+  width: 70%;
+  list-style: none;
+  gap: 20px;
+}
+.navbar-logo{
+  width: 40%;
+}
+.navbar-icons{
+  padding-left: 40px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  list-style: none;
+  gap: 30px;
+}
+.title-navbar {
+  font-size: 24px;
+  background: linear-gradient(90deg, #17AEF4, #CE22B3); /* Define el gradiente como fondo */
+  -webkit-background-clip: text; /* Propiedad específica para navegadores basados en WebKit (Safari, Chrome, etc.) */
+  background-clip: text; /* Propiedad estándar para navegadores modernos */
+  color: transparent; /* Hace el texto transparente para que se vea el gradiente */
+}
+.icons:hover{
+  cursor: pointer;
+  color : #fff;
+  text-shadow: 0 0 10px #fff;
+}
+.li-navbar:hover{
+  cursor: pointer;
+  color : #fff;
+  text-shadow: 0 0 10px #fff;
+}
