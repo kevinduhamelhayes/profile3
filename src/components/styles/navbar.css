@@ -37,7 +37,7 @@
 }
 .title-navbar {
   font-size: 24px;
-  background: linear-gradient(90deg, #17AEF4, #CE22B3); /* Define el gradiente como fondo */
+  background: linear-gradient(50deg, #17AEF4, #ed0dcc); /* Define el gradiente como fondo */
   -webkit-background-clip: text; /* Propiedad específica para navegadores basados en WebKit (Safari, Chrome, etc.) */
   background-clip: text; /* Propiedad estándar para navegadores modernos */
   color: transparent; /* Hace el texto transparente para que se vea el gradiente */

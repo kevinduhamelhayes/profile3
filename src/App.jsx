@@ -1,4 +1,3 @@
-import { useState } from "react"
 import Body from "./components/Body"
 import Header from "./components/Header"
 import Navbar from "./components/Navbar"
@@ -9,10 +8,8 @@ import Contact from "./components/Contact"
 import "./index.css"
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <>
+    <main className="main-container">
       <Navbar />
       <Header />
       <Stack />
@@ -20,7 +17,7 @@ function App() {
       <Proyecs />
       <Contact />
       <Footer />
-    </>
+    </main>
   )
 }
 

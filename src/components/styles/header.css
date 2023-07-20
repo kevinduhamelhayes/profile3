@@ -1,0 +1,26 @@
+.header-container {
+  display: flex;
+  color: #fff;
+  align-items: center;
+  justify-content: space-between;
+  margin: 200px 150px;
+}
+.header-tittle {
+  flex-grow: 1;
+}
+.header-logo {
+  position: relative;
+  background: linear-gradient(50deg, #17AEF4, #ed0dcc);
+}
+.img-header {
+  width: 250px;
+  height: 300px;
+  position: relative;
+  border-radius: 50%;
+}
+.subtitle-header {
+  font-size: 24px;
+  font-weight: 300;
+  margin-top: 20px;
+  text-decoration: linear-gradient(50deg, #17AEF4, #ed0dcc);
+}

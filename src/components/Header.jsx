@@ -1,8 +1,21 @@
-import React from 'react'
-
+import "./styles/header.css"
 const Header = () => {
   return (
-    <div>Header</div>
+    <header className="header-container">
+      <div className="header-tittle">
+        <h1 className="title-header">I my name is Kevin Duhamel</h1>
+        <h2 className="subtitle-header">Full Stack Developer</h2>
+      </div>
+      <div className="header-logo">
+        <figure className="profile-header">
+          <img
+            className="img-header"
+            src="/profile-header.jpg"
+            alt="aqui va mi logo"
+          />
+        </figure>
+      </div>
+    </header>
   )
 }
 
