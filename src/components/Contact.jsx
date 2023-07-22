@@ -1,8 +1,11 @@
-import React from 'react'
+import "./styles/contact.css"
 
 const Contact = () => {
   return (
-    <div>Contact</div>
+    <div className="title-contact1">
+      <h1 className="title-contact">For any questions please mail us</h1>
+      <h1 className="title-contact-gradient">kevinduhamelh@gmail.com</h1>
+    </div>
   )
 }
 
