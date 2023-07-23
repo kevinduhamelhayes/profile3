@@ -1,4 +1,4 @@
-import React from "react"
+
 import "./styles/stack.css"
 
 const Stack = () => {
@@ -13,63 +13,39 @@ const Stack = () => {
       <div className="stack-container-icons">
         <div className="stack-icons">
           <figure className="container-img-stack">
-            <img
-              className="image-stack"
-              src="./public/html.svg"
-              alt="html-stack"
-            />
+            <img className="image-stack" src="/html.svg" alt="html-stack" />
           </figure>
           <figure className="container-img-stack">
-            <img
-              className="image-stack"
-              src="./public/css.svg"
-              alt="css-stack"
-            />
+            <img className="image-stack" src="/css.svg" alt="css-stack" />
           </figure>
           <figure className="container-img-stack">
-            <img className="image-stack" src="./public/js.svg" alt="js-stack" />
+            <img className="image-stack" src="/js.svg" alt="js-stack" />
           </figure>
           <figure className="container-img-stack">
-            <img
-              className="image-stack"
-              src="./public/react.svg"
-              alt="react-stack"
-            />
+            <img className="image-stack" src="/react.svg" alt="react-stack" />
           </figure>
           <figure className="container-img-stack">
-            <img
-              className="image-stack"
-              src="./public/gitlab.svg"
-              alt="gitlab-stack"
-            />
+            <img className="image-stack" src="/gitlab.svg" alt="gitlab-stack" />
           </figure>
           <figure className="container-img-stack">
             <img
               className="image-stack-python"
-              src="./public/python.svg"
+              src="/python.svg"
               alt="python-stack"
             />
           </figure>
           <figure className="container-img-stack">
-            <img
-              className="image-stack"
-              src="./public/git.svg"
-              alt="git-stack"
-            />
+            <img className="image-stack" src="/git.svg" alt="git-stack" />
           </figure>
           <figure className="container-img-stack">
             <img
               className="image-stack"
-              src="./public/tailwind.svg"
+              src="/tailwind.svg"
               alt="tailwind-stack"
             />
           </figure>
           <figure className="container-img-stack">
-            <img
-              className="image-stack"
-              src="./public/vscode.svg"
-              alt="vscode-stack"
-            />
+            <img className="image-stack" src="/vscode.svg" alt="vscode-stack" />
           </figure>
         </div>
       </div>

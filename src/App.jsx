@@ -1,7 +1,7 @@
 import Body from "./components/Body"
 import Header from "./components/Header"
 import Navbar from "./components/Navbar"
-import Proyecs from "./components/Proyecs"
+import Projecs from "./components/Projecs"
 import Stack from "./components/Stack"
 import Footer from "./components/Footer"
 import Contact from "./components/Contact"
@@ -14,7 +14,7 @@ function App() {
       <Header />
       <Stack />
       <Body />
-      <Proyecs />
+      <Projecs />
       <Contact />
       <Footer />
     </main>

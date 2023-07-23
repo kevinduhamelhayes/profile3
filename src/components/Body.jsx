@@ -17,16 +17,16 @@ const Body = () => {
         <ul className="ul-body">
           What sets me apart?
           <li className="li-body">
-            🌟 Proficiency in multiple programming languages, ranging from
+            👉 Proficiency in multiple programming languages, ranging from
             Python and JavaScript to CSS and beyond, enables me to thrive in
             diverse tech landscapes.
           </li>
           <li className="li-body">
-            🌟 I continuously refine my skills, keeping abreast of the latest
+            👉 I continuously refine my skills, keeping abreast of the latest
             industry trends, making me a valuable asset for your team.
           </li>
           <li className="li-body">
-            🌟 Collaborative and communicative, I excel in team environments,
+            👉 Collaborative and communicative, I excel in team environments,
             fostering seamless coordination and collective success.
           </li>
           <li className="li-body">
