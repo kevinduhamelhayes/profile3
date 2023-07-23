@@ -1,9 +1,8 @@
 .footer-container {
 
   display: flex;
-
   height: 50px;
-  width: 100vw;
+  width: 100%;
   padding: 30px 30px;
   align-items: center;
   justify-content: space-between;
@@ -27,7 +26,7 @@
 .footer-logo{
   width: 50%;
 }
-.footer-icons{
+.footer-icons {
   padding-left: 40px;
   display: flex;
   flex-direction: row;
@@ -43,7 +42,7 @@
   background-clip: text; /* Propiedad estándar para navegadores modernos */
   color: transparent; /* Hace el texto transparente para que se vea el gradiente */
 }
-.icons:hover{
+.icons a:hover{
   cursor: pointer;
   color : #fff;
   text-shadow: 0 0 10px #fff;

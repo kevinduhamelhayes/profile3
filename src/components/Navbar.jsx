@@ -24,13 +24,24 @@ const Navbar = () => {
             <a href="#Contact">Contact</a>
           </li>
         </ul>
-        <ul className="navbar-icons">
-          <li className="icons">
-            <FaGithub />
-            <a href=""></a>
+        <ul className="ul-icons">
+          <li className="li-navbar-icon">
+            <a
+              href="https://github.com/kevinduhamelhayes"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <FaGithub />
+            </a>
           </li>
-          <li className="icons">
-            <FaLinkedin />
+          <li className="li-navbar-icon">
+            <a
+              href="https://www.linkedin.com/in/kevin-duhamel-hayes"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <FaLinkedin />
+            </a>
           </li>
         </ul>
       </div>

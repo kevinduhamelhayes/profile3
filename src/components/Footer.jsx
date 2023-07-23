@@ -5,23 +5,43 @@ const Footer = () => {
     <footer className="footer-container">
       <div className="footer-links">
         <ul className="ul-footer">
-          <li className="li-footer">home</li>
-          <li className="li-footerr">about</li>
-          <li className="li-footer">stack</li>
-          <li className="li-footer">projects</li>
-          <li className="li-footer">contact</li>
+          <li className="li-footer">
+            <a href="#Home">Home</a>
+          </li>
+          <li className="li-footer">
+            <a href="#About">About</a>
+          </li>
+          <li className="li-footer">
+            <a href="#Stack">Stack</a>
+          </li>
+          <li className="li-footer">
+            <a href="#Projecs">Projects</a>
+          </li>
+          <li className="li-footer">
+            <a href="#Contact">Contact</a>
+          </li>
         </ul>
         <ul className="footer-icons">
           <li className="icons">
-            <FaGithub />
+            <a href="https://github.com/kevinduhamelhayes"
+              target="_blank"
+              rel="noreferrer">
+              <FaGithub />
+            </a>
           </li>
           <li className="icons">
-            <FaLinkedin />
+            <a href="https://www.linkedin.com/in/kevin-duhamel-hayes"
+              target="_blank"
+              rel="noreferrer">
+              <FaLinkedin />
+            </a>
           </li>
         </ul>
       </div>
       <div className="footer-logo">
-        <p className="title-footer">sitio construido con amor para ti cortesia de REACT</p>
+        <p className="title-footer">
+          sitio construido con amor para ti con REACT
+        </p>
       </div>
     </footer>
   )

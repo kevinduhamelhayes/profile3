@@ -3,7 +3,7 @@
   display: flex;
   top: 0;
   height: 50px;
-  width: 100vw;
+  width: 100%;
   padding: 30px 60px;
   align-items: center;
   justify-content: space-between;
@@ -24,6 +24,10 @@
   list-style: none;
   gap: 20px;
 }
+a{
+  text-decoration: none;
+  color: inherit;
+}
 .navbar-logo{
   width: 40%;
 }
@@ -42,12 +46,19 @@
   background-clip: text; /* Propiedad estándar para navegadores modernos */
   color: transparent; /* Hace el texto transparente para que se vea el gradiente */
 }
-.icons:hover{
+.li-navbar:hover{
   cursor: pointer;
   color : #fff;
   text-shadow: 0 0 10px #fff;
+  list-style: none;
 }
-.li-navbar:hover{
+.ul-icons{
+  list-style: none;
+  display: flex;
+  align-items: space-between;
+  gap: 40px;
+}
+.li-navbar-icon a:hover{
   cursor: pointer;
   color : #fff;
   text-shadow: 0 0 10px #fff;
