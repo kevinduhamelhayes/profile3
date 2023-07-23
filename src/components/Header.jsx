@@ -1,7 +1,7 @@
 import "./styles/header.css"
 const Header = () => {
   return (
-    <header className="header-container">
+    <header id="Home" className="header-container">
       <div className="header-tittle">
         <h1 className="title-header">Hi! my name is Kevin Duhamel</h1>
         <h2 className="subtitle-header">I'm a Full Stack Developer</h2>

@@ -2,7 +2,7 @@ import "./styles/body.css"
 
 const Body = () => {
   return (
-    <div className="body-container">
+    <div id="About" className="body-container">
       <div className="body-title">
         <h1 className="title-body">Welcome to my portfolio</h1>
         <h1 className="title-body-gradient"> </h1>

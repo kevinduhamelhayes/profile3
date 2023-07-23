@@ -2,10 +2,10 @@ import "./styles/proyect.css"
 
 const Proyecs = () => {
   return (
-    <div className="proyects-ppal-container">
+    <div id="Projecs" className="proyects-ppal-container">
       <div className="proyects-container">
         <div className="proyects-title">
-          <h1>Proyectos</h1>
+          <h1>Proyects</h1>
         </div>
         <div className="proyects-cards-container">
           <div className="proyects">

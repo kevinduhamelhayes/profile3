@@ -3,7 +3,7 @@ import "./styles/stack.css"
 
 const Stack = () => {
   return (
-    <div className="container-stack">
+    <div id="Stack" className="container-stack">
       <div className="title-stack-container">
         <h1 className="title-stack">Stack</h1>
         <h2 className="subtitlestack">

@@ -8,15 +8,26 @@ const Navbar = () => {
       </div>
       <div className="navbar-links">
         <ul className="ul-navbar">
-          <li className="li-navbar">home</li>
-          <li className="li-navbar">about</li>
-          <li className="li-navbar">stack</li>
-          <li className="li-navbar">projects</li>
-          <li className="li-navbar">contact</li>
+          <li className="li-navbar">
+            <a href="#Home">Home</a>
+          </li>
+          <li className="li-navbar">
+            <a href="#About">About</a>
+          </li>
+          <li className="li-navbar">
+            <a href="#Stack">Stack</a>
+          </li>
+          <li className="li-navbar">
+            <a href="#Projecs">Projects</a>
+          </li>
+          <li className="li-navbar">
+            <a href="#Contact">Contact</a>
+          </li>
         </ul>
         <ul className="navbar-icons">
           <li className="icons">
             <FaGithub />
+            <a href=""></a>
           </li>
           <li className="icons">
             <FaLinkedin />
